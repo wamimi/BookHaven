@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore - About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .team-member {
+            width: 300px;
+            margin-bottom: 20px;
+            text-align: center;
+            display: flex; /* Make the team-member a flex container */
+            flex-direction: column; /* Stack the items vertically */
+            transition: transform 0.3s ease; /* Adding transition effect */
+        }
+
+        .team-member:hover {
+            transform: translateY(-5px); /* Move the team-member up slightly on hover */
+        }
+
+        .team-member img {
+            max-width: 100%;
+            max-height: 200px; /* Adjust the maximum height as needed */
+            height: auto;
+            width: auto; /* Maintain aspect ratio */
+            margin: auto; /* Center the image horizontally */
+        }
+
+        .team-member h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+        #testimonials {
+            margin-top: 40px;
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: column; /* Stack the testimonials vertically */
+            align-items: center; /* Center the testimonials horizontally */
+        }
+
+        .testimonial {
+            width: 80%; /* Set the width of the testimonials */
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #080808;
+            border-radius: 8px;
+            transition: transform 0.3s ease; /* Adding transition effect */
+        }
+
+        .testimonial:hover {
+            transform: translateY(-5px); /* Moving the testimonial up slightly on hover */
+        }
+
+        .testimonial p {
+            margin-bottom: 10px;
+        }
+
+        .testimonial strong {
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="sell.html">Sell Books</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h1>About Us</h1>
+            <p>Welcome to our bookstore! We are passionate about books and dedicated to providing the best selection for our customers.</p>
+            <p>Our team consists of avid readers who are always ready to recommend your next favorite book.</p>
+        </section>
+        
+        <section id="team">
+            <div class="team-member">
+                <h3>Nelly Njeri</h3>
+                <img src="images/premium_photo-1695792938656-127c9dad189d.avif" alt="John Doe">
+            </div>
+            <div class="team-member">
+                <h3>Jane Nyagothie</h3>
+                <img src="images/premium_photo-1695792938656-127c9dad189d.avif" alt="Jane Smith">
+            </div>
+        </section>
+        
+        <section id="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial">
+                <p>"I love shopping at this bookstore! The selection is fantastic, and the staff is always friendly and helpful."</p>
+                <p><strong>- Alice Johnson</strong></p>
+            </div>
+            <div class="testimonial">
+                <p>"This bookstore has become my go-to place for finding new reads. Highly recommended!"</p>
+                <p><strong>- Mark Thompson</strong></p>
+            </div>
+        </section> 
+    </main>
+    <footer>
+        <p>&copy; 2024 Bookstore. All rights reserved.</p>
+    </footer>
+</body>
+</html>
