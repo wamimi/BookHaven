@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        .hero {
+            background-image: url('images/one.avif');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+        .cta-btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #0b0b0b;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .featured-books {
+            padding: 50px 0;
+            background-color: #007bff;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .book {
+            text-align: center;
+            flex: 1;
+            margin: 0 10px;
+            transition: transform 0.3s ease; /* Adding transition effect */
+        }
+        .book:hover {
+    transform: translateY(5px); /* Move the book down on hover */
+       }
+
+        .book img {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .book h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+
+        .testimonials {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .testimonial {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #080808;
+            color: #fff;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .testimonial:hover {
+            transform: translateY(-5px);
+        }
+
+        .testimonial p {
+            margin-bottom: 10px;
+        }
+
+        .newsletter {
+            padding: 50px 0;
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+        }
+
+        .newsletter h2 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        .newsletter form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .newsletter input[type="email"] {
+            padding: 10px;
+            width: 70%;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            font-size: 1rem;
+        }
+
+        .newsletter button {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #007bff;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="sell.html">Sell Books</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to our Bookstore</h1>
+            <p>Find the latest bestsellers and share your reviews with the community.</p>
+            <a href="books.html" class="cta-btn">Explore Books</a>
+        </section>
+        
+        <section class="featured-books">
+            <h2>Featured Books</h2>
+            <div class="book">
+                <img src="images/img_8428.webp" alt="Book 1">
+                <h3>It Ends With Us</h3>
+            </div>
+            <div class="book">
+                <img src="images/BOOK-REVIEW-32.jpg" alt="Book 2">
+                <h3>Thinking Fast and Slow</h3>
+            </div>
+            <div class="book">
+                <img src="images/none.jpeg" alt="Book 3">
+                <h3>None of this is true</h3>
+            </div>
+        </section>
+        
+        <section class="testimonials">
+            <h2>Customer Testimonials</h2>
+            <div class="testimonial">
+                <p>"I love shopping at this bookstore! The selection is fantastic, and the staff is always friendly and helpful."</p>
+                <p><strong>- Alice Johnson</strong></p>
+            </div>
+            <div class="testimonial">
+                <p>"This bookstore has become my go-to place for finding new reads. Highly recommended!"</p>
+                <p><strong>- Mark Thompson</strong></p>
+            </div>
+        </section>
+        
+        <section class="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form action="#">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bookstore. All rights reserved.</p>
+    </footer>
+</body>
+</html>
