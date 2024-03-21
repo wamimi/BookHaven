@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Global styles */
+html {
+    height: 100%;
+    background-image: url('images/one.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f5efef; /* Text color for better readability */
+}
+
+/* Header styles */
+header {
+    background-color: #0f0f0f; /* Darker shade for better contrast */
+    color: #131212;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center align the navigation links */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #faf6f6;
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    min-height: 100vh; /* Ensure main content fills the viewport height */
+    box-sizing: border-box; /* Include padding and border in height calculation */
+}
+
+/* Footer styles */
+footer {
+    background-color: #0a0a07;
+    color: #dde8df;
+    text-align: center;
+    padding: 10px;
+}
