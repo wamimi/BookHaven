@@ -1,4 +1,7 @@
 # Bookstore Website
+![Screenshot](![Screenshot](https://github.com/yNelly-Njeri/BookHaven/blob/main/screenshot 2024-03-22 003755.png)
+)
+
 
 Welcome to the BookHaven! This is a web application for a bookstore, where users can explore books, learn about the bookstore, sell their books, and contact the store.
 
