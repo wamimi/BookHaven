@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore - Books</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the minimum and maximum width of each category */
+            gap: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .category {
+            background-color: #0056b3;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .category:hover {
+            transform: translateY(-5px);
+        }
+
+        .category img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .category h3 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="sell.html">Sell Books</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Categories</h1>
+            <div class="categories">
+                <div class="category">
+                    <h3>Fiction</h3>
+                    <p>Explore our collection of fictional works.</p>
+                    <img src="images/photo-1440778303588-435521a205bc.avif" alt="Fiction Book 1">
+                    <img src="images/photo-1521056787327-165dc2a32836.avif" alt="Fiction Book 2">
+                    
+                </div>
+                <div class="category">
+                    <h3>Non-Fiction</h3>
+                    <p>Discover facts and insights with our non-fictional books.</p>
+                    
+                    <img src="images/photo-1440778303588-435521a205bc.avif" alt="Non-Fiction Book 1">
+                    <img src="images/photo-1521056787327-165dc2a32836.avif" alt="Non-Fiction Book 2">
+                    
+                </div>
+                <div class="category">
+                    <h3>Historical Fiction</h3>
+                    <p>Transport yourself to different eras with our historical fiction books.</p>
+                   
+                    <img src="images/photo-1521056787327-165dc2a32836.avif" alt="Historical Fiction Book 1">
+                    <img src="images/photo-1503676260728-1c00da094a0b.avif" alt="Historical Fiction Book 2">
+                  
+                </div>
+                <div class="category">
+                    <h3>Children's</h3>
+                    <p>Find entertaining and educational books for young readers.</p>
+                
+                    <img src="images/photo-1549737221-bef65e2604a6.avif" alt="Children's Book 1">
+                    <img src="images/premium_photo-1669652639356-f5cb1a086976.avif" alt="Children's Book 2">
+                   
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bookstore. All rights reserved.</p>
+    </footer>
+</body>
+</html>
