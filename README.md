@@ -30,7 +30,7 @@ To run the Bookstore Website locally on your machine, follow these steps:
 1. Clone this repository to your local machine using `git clone https://github.com/your-username/bookstore.git`
 2. Navigate to the project directory: `cd bookstore`
 3. Open the project folder in your code editor.
-4. Start a local web server or use a development environment like XAMPP or WAMP.
+4. Open the code with live server.
 5. Access the website through your web browser at `http://localhost/bookstore`.
 
 ## Contributing
